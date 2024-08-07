@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+   /* display:flex; */
+    
+
+}
+.inicial{
+    border:1px solid yellow;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+div .secundario{
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    
+}
+ 
+/*Aqui empezamos a definir los div de firma individual */
+.primero{
+    margin-top: 0px;
+    margin-left: 25px;
+
+
+}
+.segundo{
+    margin-bottom: 40px;
+    text-align: right;  
+}

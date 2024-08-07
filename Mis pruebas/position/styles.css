@@ -1,0 +1,49 @@
+.rectangulo{
+    width:50%;
+    height: 75px;
+    border: solid 1px black;
+    margin-bottom:10px;
+}
+.cuadrado{
+    width:25%;
+    height:140px;
+    
+}
+.amarillo{
+    background-color: yellow;
+   position:relative;
+   top:0px;
+}
+
+.naranja{
+    background-color: orange;
+   position:relative;
+   top:0px;
+   z-index: 1;
+}
+
+.rojo{
+    background-color: red;
+    position :relative;
+    
+}
+
+.verde{
+    background-color: green;
+    
+}
+.azul{
+    background-color: blue;
+    
+}
+.gris{
+    background-color: grey;
+    
+}
+.negro{
+    background-color: black;
+    color:white;
+    position:relative;
+    top:0px;
+
+}

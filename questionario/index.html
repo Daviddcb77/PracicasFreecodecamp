@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario encuesta</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Basket 9Badia</h1>
+    <p id="description">Hoja pre-inscripción</p>
+    <form action="post" method="" id="survey-form">
+      
+      <fieldset>
+        <legend>Datos perdonales</legend>
+        <label id="name-label">
+       Nombre: <input type="text" id="name" class="formulario" placeholder="David Jordan" required>
+       </label>
+       <label  id="email-label">
+        Email:
+        <input type="email" class="formulario" id="email" placeholder="micorreo@hotmail.com" required>
+       </label>
+       <label  id="number-label">
+         Edat: <input type="number" class="formulario1" id="number" max="18" min="7"  required placeholder="13" value="">
+       </label>
+       <label>
+         Modalidad:
+         <select id="dropdown" required>
+           <option value="">Elige una opcion</option>
+           <option value="1">basket</option>
+           <option value="2">3*3</option>
+         <option value="3">2*2</option>
+         <option value="4">1*1</option>
+         </select>
+       </label>
+       </fieldset>
+       <fieldset>
+         <legend>Categoria</legend>
+       <label>
+        <input type="radio" name="categoria" id="" value="Escuela" class="inline">Escuela
+        </label>
+        <label>
+        <input type="radio" name="categoria" id="" value="Premini" class="inline"> Premini                 
+        </label> 
+         <label>
+        <input type="radio" name="categoria" id="" value="Mini" class="inline">Mini
+        </label>
+        <label>
+         <input type="radio" name="categoria" id="" value="Preinfantil" class="inline" >Preinfantil
+        </label>
+        <label>
+        <input type="radio" name="categoria" id="" value="Infantil" class="inline">Infantil
+        </label> 
+         <label>
+        <input type="radio" name="categoria" id="" value="Cadete" class="inline">Cadete
+        </label> 
+         <label>
+        <input type="radio" name="categoria" id="" value="Junior" class="inline">Junior
+        </label> 
+       </fieldset>
+       <fieldset>
+         <label>
+           <input type="checkbox" value="Adulto" required/> Mayor de edad
+         </label>
+         <label>
+           <input type="checkbox"  value="true" required/> <a href="http://www.condiciones.com">Acepto las condiciones</a>
+         </label>
+       </fieldset>
+      <fieldset>
+        <label>
+          <textarea rows="3" placeholder="Por que motivos te gustaria formar parte de nuestro club y no otro"></textarea>
+        </label>
+      </fieldset>
+      
+      <input type="submit" id="submit">
+      </form>
+
+  </body>

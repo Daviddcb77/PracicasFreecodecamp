@@ -1,0 +1,32 @@
+*{
+  margin:10;
+}
+body{
+    background-color: black;
+}
+
+
+header{
+  display:flex;  
+  justify-content:space-between;
+  
+  background-color: white;
+}
+.logo{
+    display:flex;
+    align-items: center;
+   
+
+
+}
+
+nav{
+  margin-right: 100px;
+  margin-top:50px;
+}
+
+.navigation  a{
+  color:red;
+ 
+}
+ 
